@@ -77,20 +77,36 @@
 }
 
 .contenedorProductos {
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  margin: 4px;
+  margin-bottom: 20px;
+}
+
+.seccionProductos {
   background-color: blue;
   color: rgb(168, 168, 168);
   text-align: center;
+  margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 20px;
   font-family: sans-serif;
 }
 
-.tituloProductos {
-  text-align: center;
+.descripcionCards {
+  background-color: aliceblue;
+  border-radius: 10px;
 }
 
+.fondoRegistrarse {
+  background-color: rgb(191, 201, 248);
+  margin: 30px;
+  border: 1px solid blue;
+}
 
+.logoRegistro {
+  width: 330px;
+}
  /*FOOTER*/
 
  .tituloFooter {
@@ -112,3 +128,67 @@
   font-weight: 600;
 }
 
+/*BOTON DE WHATSAPP*/
+
+.whatsapp {
+  width: 70px;
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.labelFormulario {
+  display: block;
+  font-weight: bold;
+  margin: 10px 5px;
+  color: rgb(25, 25, 61);
+  font-size: 20px;
+}
+
+input, textarea {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.botones {
+  background-color: rgb(1, 1, 110);
+  color: blanchedalmond;
+  width: 150px;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline;
+  text-transform: uppercase;
+  border-radius: 7PX;
+}
+
+.contenedorForm {
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(160, 159, 159);
+}
+
+.seccionContacto {
+  background-color: blue;
+  color: rgb(168, 168, 168);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+
+.contenedorIframe {
+  margin-bottom: 30px;
+}
